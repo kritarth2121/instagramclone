@@ -1,0 +1,11 @@
+{% extends 'homepage/base.html' %}
+{% block content %}
+<div class='row justify-content-center' id='update-delete'>
+<p>You have been logged out</p>
+</div>
+<div class='row justify-content-center'>
+<small class='text-muted'>
+    <a href='{% url 'login' %}'>Log In Again</a>
+</small>
+</div>
+{% endblock content %}
