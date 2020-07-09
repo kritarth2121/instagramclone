@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 
-ALLOWED_HOSTS = ['.caseygram.herokuapp.com']
+ALLOWED_HOSTS = ['kritarthgram.herokuapp.com']
 
 
 # Application definition
