@@ -1,7 +1,7 @@
-# caseygram
+# kritarthgram
 caseygram is an Instagram clone built using Django, Bootstrap, and jQuery. I recreated many of Instagrams features including: CRUD capabilties on posts, explore page, likes, comments, direct messaging, profiles, profiles pictures, bios, search bar, and followers/following categories. I used Bootstrap to recreate the UX of instagrams desktop page that changes for mobile use. jQuery is used to make real-time like/follower/following updates using AJAX calls. 
 
-Check out the website at (https://caseygram.herokuapp.com/)
+Check out the website at (https://kritarthgram.herokuapp.com/)
 ## Getting Started
 
 1. Open up Terminal, and go into the directory where you want Caseygram to run
