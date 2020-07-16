@@ -4,14 +4,14 @@ caseygram is an Instagram clone built using Django, Bootstrap, and jQuery. I rec
 Check out the website at (https://kritarthgram.herokuapp.com/)
 ## Getting Started
 
-1. Open up Terminal, and go into the directory where you want Caseygram to run
+1. Open up Terminal, and go into the directory where you want Kritarthgram to run
 
 ```
 cd projects
 ```
 2. Download a copy
 ```
-git clone https://github.com/cdelange/caseygram.git
+git clone https://github.com/kritarth2121/instagramclone.git
 ```
 3. Install a virtual environment
 ```
@@ -24,12 +24,12 @@ mkdir ~/venvs
 
 5. Make a new virtual environment for this project
 ```
-virtualenv --system-site-packages ~/venvs/caseygram
+virtualenv --system-site-packages ~/venvs/kritarthgram
 ```
 
 6. Start the virtual environment
 ```
-source ~/venvs/caseygram/bin/activate
+source ~/venvs/kritarthgram/bin/activate
 ```
 
 7. Generate a secret key for your django app using
@@ -123,9 +123,7 @@ caseygram is deployed on Heroku.
 * [jQuery](https://jquery.com/) - Used for AJAX calls
 * [Heroku](https://www.heroku.com/) - Used for deployment
 
-## Authors
 
-* **Casey DeLange** - [cdelange](https://github.com/cdelange)
 
 
 ## Additional Plans
