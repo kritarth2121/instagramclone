@@ -59,9 +59,7 @@ SECRET_KEY = 'generated key'
 ```
 
 9. Go into the directory containing 'requirements.txt'
-```
-cd caseygram
-```
+
 
 10. Install the Python requirements
 ```
@@ -89,7 +87,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-15. Now go to http://localhost:8000/ in your browser to view caseygram
+15. Now go to http://localhost:8000/ in your browser to view kritarthgram
 
 
 
@@ -119,13 +117,3 @@ kritarthgram is deployed on Heroku.
 * [jQuery](https://jquery.com/) - Used for AJAX calls
 * [Heroku](https://www.heroku.com/) - Used for deployment
 
-
-
-
-## Additional Plans
-* Add more infinite scroll capabilities
-* Use AWS Lambda to resize my current S3 bucket images to smaller formats
-* Fix notification server error with comment deletion
-* alternate new account image so there is not 100 of the same image.
-* formatting the comment system to not spill over the container
-* comment text field on image page. and use ajax to submit comment and update in real time
