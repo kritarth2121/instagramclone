@@ -1,5 +1,5 @@
 # kritarthgram
-caseygram is an Instagram clone built using Django, Bootstrap, and jQuery. I recreated many of Instagrams features including: CRUD capabilties on posts, explore page, likes, comments, direct messaging, profiles, profiles pictures, bios, search bar, and followers/following categories. I used Bootstrap to recreate the UX of instagrams desktop page that changes for mobile use. jQuery is used to make real-time like/follower/following updates using AJAX calls. 
+kritarthgram is an Instagram clone built using Django, Bootstrap, and jQuery. I recreated many of Instagrams features including: CRUD capabilties on posts, explore page, likes, comments, direct messaging, profiles, profiles pictures, bios, search bar, and followers/following categories. I used Bootstrap to recreate the UX of instagrams desktop page that changes for mobile use. jQuery is used to make real-time like/follower/following updates using AJAX calls. 
 
 Check out the website at (https://kritarthgram.herokuapp.com/)
 ## Getting Started
@@ -23,14 +23,10 @@ mkdir ~/venvs
 ```
 
 5. Make a new virtual environment for this project
-```
-virtualenv --system-site-packages ~/venvs/kritarthgram
-```
+
 
 6. Start the virtual environment
-```
-source ~/venvs/kritarthgram/bin/activate
-```
+
 
 7. Generate a secret key for your django app using
 ```
@@ -53,7 +49,7 @@ get_random_string(50, chars)
 quit()
 ```
 
-8. Copy this result and in your caseygram/caseygram/settings.py file replace
+8. Copy this result and in your settings.py file replace
 ```
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 ```
@@ -114,7 +110,7 @@ class MessageTestCase(TestCase):
 
 ## Deployment
 
-caseygram is deployed on Heroku.
+kritarthgram is deployed on Heroku.
 
 ## Built With
 
