@@ -1,6 +1,6 @@
 asgiref==3.2.7
 attrs==19.3.0
-autobahn==20.6.2
+autobahn==20.12.3
 Automat==20.2.0
 beautifulsoup4==4.9.1
 boto3==1.9.179
